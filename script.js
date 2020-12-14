@@ -2,7 +2,7 @@
 let lista = []
 
 
-function adcionar() {
+function adicionar() {
     
     let num = document.getElementById('txtn')
     let valorAdc = document.getElementById('valAdc')
@@ -15,22 +15,22 @@ function adcionar() {
     
     
     if(num.value.length == 0){
-        window.alert('Adcione um número ')
+        window.alert('Adicione um número ')
 
     }else if(num.value > 100 || num.value <= 0){
-        window.alert('Número inválido [ADCIONE UM NÚMERO ENTRE 1 E 100]')
+        window.alert('Número inválido [ADICIONE UM NÚMERO ENTRE 1 E 100]')
             
     }else{
-        res.innerHTML = 'Valor adcionado: '+n
+        res.innerHTML = 'Valor adicionado: '+n
 
     
     }
     
     
     for( ; i <lista.length ; i++){
-      
+
         item.value = 'valorAdc' +lista
-        item.text = 'Valor ' +lista[i]+' adcionado.'    
+        item.text = 'Valor ' +lista[i]+' adicionado.'
 
         //console.log(lista, n, i)
         
@@ -56,24 +56,24 @@ function Finalizar(){
             return total + lista;
         }, 0);
 
-        numerosSoma.innerHTML = 'A soma dos números adcionados é: ' +total
+        numerosSoma.innerHTML = 'A soma dos números adicionados é: ' +total
 
         var media = total / lista.length
 
-        numerosMed.innerHTML = 'A média dos números adcionados é: ' +media
+        numerosMed.innerHTML = 'A média dos números adicionados é: ' +media
     
         var max = lista.reduce(function( a, b ){
             return Math.max(a , b);
         });
     
-            numerosMax.innerHTML = 'O maior valor adcionado foi: ' +max
+            numerosMax.innerHTML = 'O maior valor adicionado foi: ' +max
     
     
         var min = lista.reduce(function( a, b){
             return Math.min(a,b);
         });
 
-            numerosMin.innerHTML = 'O maior valor adcionado foi : '+min
+            numerosMin.innerHTML = 'O maior valor adicionado foi : '+min
 
     }
 
