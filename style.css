@@ -1,0 +1,35 @@
+body{
+    background: rgba(49, 0, 0, 0.952);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: whitesmoke;
+    text-align: center;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.363);
+}
+#resultados_finais{
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 2;
+    font: normal Arial;
+}
+#res{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
