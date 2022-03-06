@@ -16,9 +16,11 @@ function adicionar() {
     
     if(num.value.length == 0){
         window.alert('Adicione um número ')
+        return
 
     }else if(num.value > 100 || num.value <= 0){
         window.alert('Número inválido [ADICIONE UM NÚMERO ENTRE 1 E 100]')
+        return
             
     }else{
         res.innerHTML = 'Valor adicionado: '+n
