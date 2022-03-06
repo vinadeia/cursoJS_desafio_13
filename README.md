@@ -10,4 +10,8 @@ Durante esse desafio pude conhecer melhor as propriedades do método Math, traba
 
 ## Prints da aplicação
 
-<img src="printPage/printListaNumeros">
+<img src="printPage/printListaNumeros.png">
+
+<img src="printPage/printListaNumerosCombobox.png">
+
+<img src="printPage/printListaNumerosComboboxAnalisada.png">
